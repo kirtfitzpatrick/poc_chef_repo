@@ -5,5 +5,5 @@ group :community do
   cookbook 'git'
 end
 
-cookbook 'poc_cookbook_foo', git: 'git@github.com:kirtfitzpatrick/poc_cookbook_foo.git'
-cookbook 'poc_cookbook_bar', git: 'git@github.com:kirtfitzpatrick/poc_cookbook_bar.git'
+cookbook 'poc_cookbook_foo', git: 'https://github.com/kirtfitzpatrick/poc_cookbook_foo.git'
+cookbook 'poc_cookbook_bar', git: 'https://github.com/kirtfitzpatrick/poc_cookbook_bar.git'
