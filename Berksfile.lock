@@ -2,11 +2,11 @@ DEPENDENCIES
   build-essential
   git
   poc_cookbook_bar
-    git: git@github.com:kirtfitzpatrick/poc_cookbook_bar.git
+    git: https://github.com/kirtfitzpatrick/poc_cookbook_bar.git
     revision: 2dc3113e24089076f41571205d09002feab7faad
   poc_cookbook_foo
-    git: git@github.com:kirtfitzpatrick/poc_cookbook_foo.git
-    revision: 0743f8632bf504ed3c598a23de20dcd81b1226ec
+    git: https://github.com/kirtfitzpatrick/poc_cookbook_foo.git
+    revision: a156d1bc2a8d0c670093b443a471f6826d86eada
 
 GRAPH
   build-essential (2.0.6)
@@ -20,7 +20,7 @@ GRAPH
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
   poc_cookbook_bar (0.1.0)
-  poc_cookbook_foo (0.1.0)
+  poc_cookbook_foo (0.1.1)
   runit (1.5.10)
     build-essential (>= 0.0.0)
     yum (~> 3.0)
